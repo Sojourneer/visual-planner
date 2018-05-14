@@ -127,6 +127,7 @@ function VipGridConfig()
 	this.first_month = 1;
 	this.show_weekends = true;
 	this.align_weekends = true;
+	this.event_per_line = false;
 	this.font_scale = 0.6;
 	this.past_opacity = 0.7;
 	this.month_names = "Jan-Feb-Mar-Apr-May-Jun-Jul-Aug-Sep-Oct-Nov-Dec";
