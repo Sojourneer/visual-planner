@@ -128,6 +128,9 @@ body {
 		<div class="sub"><select ng-model="settings.vipconfig.multi_col_count_portrait"  ng-options="x for (x, y) in multi_col_count_options"></select>
 			Number of columns to display in portrait mode on mobile devices.
 		</div>
+		<div class="sub"><input ng-model="settings.vipconfig.event_per_line" type="checkbox">
+			Show each event on separate line.
+		</div>
 		<div class="sub"><input ng-model="settings.vipconfig.auto_scroll" type="checkbox">
 			Auto-scroll to current month.  If not selected, the view will always start at the beginning of the year.
 			<div class="sub"><input ng-model="settings.vipconfig.auto_scroll_offset" type="number" min="-12" max="12">
